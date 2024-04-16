@@ -1,35 +1,62 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class Movimento : MonoBehaviour
 {
     [SerializeField] private float Velocidade, AlturaPulo;
+    [SerializeField] private Transform PeDoPersonagem;
+    [SerializeField] private LayerMask Chao;
+    
+    
     //O corpo do jogador
     [SerializeField] private Rigidbody2D Corpo;
-    //Para ele não pular infinitamente
-    private bool PodePular = true;
+    //Para ele nï¿½o pular infinitamente
+    private bool PodePular = false;
+    [SerializeField] private float ForcaPulo;
 
     void Update()
     {
-        //Se a barra de espaço foi pressionada e o jogador pode pular
+        //Se a barra de espaï¿½o foi pressionada e o jogador pode pular
         if(Input.GetKeyDown(KeyCode.Space) && PodePular)
         {
-            //Adiciona uma força para cima proporcional à AlturaPulo
+            //Adiciona uma forï¿½a para cima proporcional ï¿½ AlturaPulo
             Corpo.AddForce(new Vector2(0, AlturaPulo));
-            //Proíbe o jogador de pular
+            //Proï¿½be o jogador de pular
             PodePular = false;
         }
         //Define a velocidade do corpo baseada na tecla pressionada (Input.GetAxisRaw("Horizontal"))
-        //A função retorna 1 se a seta pra direita ou D foram pressionados
+        //A funï¿½ï¿½o retorna 1 se a seta pra direita ou D foram pressionados
         //Retorna 0 se a seta da esquerda ou A foram pressionados
-        //Neste caso, não se usa Time.deltaTime, porque RigidBody2D.velocity já opera baseado na taxa de frames
-        Corpo.velocity = new Vector2(Velocidade * Input.GetAxisRaw("Horizontal"), Corpo.velocity.y);
-    }
+        //Neste caso, nï¿½o se usa Time.deltaTime, porque RigidBody2D.velocity jï¿½ opera baseado na taxa de frames
 
-    //Função para ser chamada pela base
-    public void PermitirPulo()
-    {
-        PodePular = true;
+        float movimento_horizontal = Velocidade * Input.GetAxisRaw("Horizontal");
+        Corpo.velocity = new Vector2(movimento_horizontal, Corpo.velocity.y);
+
+        //Cria uma caixa, se a caixa colidir com o chao, pode pular
+        //Nessa funÃ§Ã£o se passa a posiÃ§Ã£o, tamanho, angulo e distancia(tamanho) em relaÃ§Ã£o a direÃ§Ã£o
+        //Tambem passa um layer mask, pra que somente os layers associados a Chao sejam considerados
+        bool PertoDoChao = Physics2D.BoxCast(PeDoPersonagem.position, new Vector2(0.5f, 0.2f), 0f, Vector2.down, 0.1f, Chao);
+        
+        
+        //Se o acerto tem um resultado nÃ£o nulo, pode pular
+        if(PertoDoChao)
+        {
+            PodePular = true;
+        }
+        else //Caso contrÃ¡rio, nÃ£o se pode pular
+        {
+            PodePular = false;
+        }
+        
+        //Se pode pular e o jogador apertou espaÃ§o
+        if (PodePular && Input.GetKeyDown(KeyCode.Space) )
+        {
+            //Adiciona uma forÃ§a proporcional a ForcaPulo pra cima
+            Corpo.AddForce(Vector2.up * ForcaPulo);
+        }
     }
 }

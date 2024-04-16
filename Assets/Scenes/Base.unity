@@ -132,51 +132,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 152153220}
-  - component: {fileID: 152153219}
-  - component: {fileID: 152153218}
   - component: {fileID: 152153221}
   m_Layer: 0
-  m_Name: EventSystem
+  m_Name: GameManager
   m_TagString: Controlador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &152153218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 152153217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &152153219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 152153217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
 --- !u!4 &152153220
 Transform:
   m_ObjectHideFlags: 0
@@ -497,7 +460,7 @@ GameObject:
   - component: {fileID: 406348305}
   - component: {fileID: 406348307}
   - component: {fileID: 406348308}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RampaE
   m_TagString: Plataforma
   m_Icon: {fileID: 0}
@@ -565,7 +528,7 @@ Transform:
   m_GameObject: {fileID: 406348304}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.7361, y: -4.22, z: 0}
+  m_LocalPosition: {x: 0.913, y: -4.195, z: 0}
   m_LocalScale: {x: 0.0690725, y: 0.1889, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -660,7 +623,7 @@ GameObject:
   - component: {fileID: 415464385}
   m_Layer: 0
   m_Name: Teto
-  m_TagString: Plataforma
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -818,7 +781,7 @@ GameObject:
   - component: {fileID: 424307136}
   m_Layer: 0
   m_Name: ParedeD
-  m_TagString: Plataforma
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -899,7 +862,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 816b87f4bb1988b46953ed393be0e2d0, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -976,7 +939,7 @@ GameObject:
   - component: {fileID: 432625296}
   m_Layer: 0
   m_Name: ParedeE
-  m_TagString: Plataforma
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1005,7 +968,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 432625294}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 816b87f4bb1988b46953ed393be0e2d0, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1057,7 +1020,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 816b87f4bb1988b46953ed393be0e2d0, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1504,7 +1467,7 @@ GameObject:
   - component: {fileID: 636108919}
   - component: {fileID: 636108917}
   - component: {fileID: 636108921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RampaD
   m_TagString: Plataforma
   m_Icon: {fileID: 0}
@@ -1599,7 +1562,7 @@ Transform:
   m_GameObject: {fileID: 636108916}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3149, y: -4.22, z: 0}
+  m_LocalPosition: {x: 2.104, y: -4.212, z: 0}
   m_LocalScale: {x: 0.0690725, y: 0.1889, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1664,7 +1627,7 @@ GameObject:
   - component: {fileID: 827372965}
   - component: {fileID: 827372964}
   - component: {fileID: 827372966}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Atirador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1801,7 +1764,7 @@ GameObject:
   - component: {fileID: 1061508730}
   - component: {fileID: 1061508732}
   - component: {fileID: 1061508733}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Chao
   m_TagString: Plataforma
   m_Icon: {fileID: 0}
@@ -2257,7 +2220,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Velocidade: 10
   AlturaPulo: 500
+  PeDoPersonagem: {fileID: 1448686843}
+  Chao:
+    serializedVersion: 2
+    m_Bits: 64
   Corpo: {fileID: 1422333709}
+  ForcaPulo: 0
 --- !u!1 &1448686842
 GameObject:
   m_ObjectHideFlags: 0
@@ -2267,10 +2235,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1448686843}
-  - component: {fileID: 1448686844}
-  - component: {fileID: 1448686845}
   m_Layer: 0
-  m_Name: Base
+  m_Name: "P\xE9"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2291,64 +2257,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1422333707}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1448686844
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448686842}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &1448686845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448686842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2adda9636ca88974b9a6c0d80332b6a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 1422333705}
 --- !u!1 &2051880076
 GameObject:
   m_ObjectHideFlags: 0
@@ -2457,9 +2365,9 @@ RectTransform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 152153220}
   - {fileID: 519420032}
   - {fileID: 1422333707}
   - {fileID: 1051924482}
   - {fileID: 827372965}
   - {fileID: 2051880080}
-  - {fileID: 152153220}
