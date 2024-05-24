@@ -1,0 +1,1852 @@
+fileFormatVersion: 2
+guid: 34f2d21cbc832ca4fb01377a3ba05272
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2093
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d290fcbb65167c4fac26e7d9721b7d7
+      internalID: -237790719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2093
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1f4eecb0e05ff468c093c8365e03da
+      internalID: 1504504986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_2
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2093
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28128671acf80ad4e8cd19a2b615a23b
+      internalID: -1159651475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_3
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 2093
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d3d9880d102a34cbbeaedbf7701471
+      internalID: -421147587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1934
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335c16233e24da94988253a1102360d5
+      internalID: -1236862584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_5
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1934
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358c6e63a729a6a43b2c8e4a99f8375c
+      internalID: -1956209909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_6
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1934
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f00680729d1fec4a809bb72505552ed
+      internalID: 168300909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_7
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1934
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaa705de299e6f46aeb70b7e9ad8f6a
+      internalID: 39823975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1773
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c6cbfdd823eb84a84c4f7df421d704
+      internalID: 2076060558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1773
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24411c1f1ed982a40ba47b9c04e82da4
+      internalID: 995567299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_10
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1773
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65d402151e46a34f8e2a826894bd3ba
+      internalID: 1616247553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_11
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1773
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559519e6ee57e5245a284cceffbc2a48
+      internalID: -381079071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1618
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edd1201be524e744acff66937cd1526
+      internalID: 402621149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1618
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e155f039461b4364b8bb0ee8a11aa864
+      internalID: 1354938791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_14
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1618
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a89e50be491c1488c952f4e3e48571
+      internalID: -616531149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_15
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1618
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2dd176e74bc6e49a33d45d8370e64c
+      internalID: -1557674170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1454
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78410f0a2daaae748925d41ba48d2188
+      internalID: -1287300925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1454
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87355adc7ec3ec74285170cdaa04658e
+      internalID: 19079703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_18
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1454
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b55bdf5f691a8479daa3fa31d30810
+      internalID: -1864325977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_19
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1454
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8020da0dcb408254a8715a8112784794
+      internalID: 61902551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1293
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf0509fe77ce1f4893079d5199ee319
+      internalID: -1676355429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_21
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1293
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07799d2420314d745854bcb82b35db8f
+      internalID: 33691761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_22
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1293
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58836eca50d3a184b92ee2c7b222f4c4
+      internalID: 876918408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1293
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d206820d77c39634c98b62cb77c58edb
+      internalID: 572673157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1133
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03feb897dce486c4588d04f61d685337
+      internalID: 1334711101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_25
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1133
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6270051e76cca428290e89e4c8b3ee
+      internalID: -88859954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_26
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1133
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8d92601847def488bfdb09334a933b
+      internalID: 1946963962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_27
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1133
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e921cb52cd44624a97600a4466b64d3
+      internalID: 1684087388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_28
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 973
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8661f60423a0142829e39f7e7b7fa4
+      internalID: -108574914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_29
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 973
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2315614f6555734ca2154a2ce8da92e
+      internalID: 1138082669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_30
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 973
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb153b25a46fd488efcb68b5a6d1d7
+      internalID: 672007170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_31
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 973
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbec441c5256834fa453c4786f33333
+      internalID: 842974839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_32
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 814
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7983c62c122004abb0787eee945edf
+      internalID: -845029419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_33
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 814
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf244406f1118464ead3baf5b52ffdfe
+      internalID: -1866983955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_34
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 814
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5186548ebb750aa46b8e26b0998e7542
+      internalID: -911820515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_35
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 814
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3be8c89d93faa4b987bc5c1ccb47b8
+      internalID: 467850416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_36
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 653
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4e9ce05dd25ba47a7ea29c87868f1e
+      internalID: 425457083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_37
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 653
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6e658030aeeb946b27a832c7d9a340
+      internalID: 1446127764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_38
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 653
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b927320d961ccc54892571390c4153b9
+      internalID: -1200460242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_39
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 653
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7fe56b3e498544a9a8703c0ffd4b44
+      internalID: -749181174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 493
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd770d274ebfac4db29799cf013a778
+      internalID: 1817268791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_41
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 493
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5e971f9d4ded24190883462b25861a
+      internalID: -1143143365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_42
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 493
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0d6530d5762254ab0ee5902763a443
+      internalID: -1340521891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_43
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 493
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621649ae83926704ca93a8a5d1908de1
+      internalID: -1802698281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_44
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 334
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c946376a4c3944780312de1f086ab7
+      internalID: -1403215224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_45
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 334
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a643c8812d007e44d9d62466bbcdefd0
+      internalID: -1790695758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_46
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 334
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb554889cba9ae41b97d885245b9abe
+      internalID: -319614540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_47
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 334
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97e345212e5ba541b98d1876e2fa814
+      internalID: -1200729400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_48
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 172
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e00dbe3e29d63345ae66fa15b2e5bc4
+      internalID: -91728684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_49
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 172
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dca34dbd77c244fa8247f0584a890e
+      internalID: 1106264717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_50
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 172
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2be502fa5250f14b9a3572c22eb7536
+      internalID: 1169123422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_51
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 172
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91293810bfd9114d9b17acf895736db
+      internalID: -156926363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_52
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 93
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f485eceff8ad0fd4cbd40100cfaf8b19
+      internalID: 178513500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 152
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef9c5f6382947b49a572f31b1834ea0
+      internalID: 1581396194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_54
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 81
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b0add64c9b3094b8492759870b5393
+      internalID: 1233656655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 132
+        width: 104
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a558af8756f8a4ba9b2cf8ceffcdbc
+      internalID: 965101436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_56
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 104
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77980f2de3008343a66f6427731d271
+      internalID: 1913850028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_57
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 104
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c737bc52ce40d69408d03033dd5ff7cd
+      internalID: -2129852419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 123
+        width: 110
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1396410eb3209434bbd8875ea6ffce16
+      internalID: 1715472347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 102
+        width: 104
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9e832ca5fecee4e97720ccb45b58e0
+      internalID: -779342164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_60
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 68
+        width: 96
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17379fa804ebb054e8d7374b1c79a87c
+      internalID: -1358754518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_61
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 84
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3506566013a52ca43b31a779be913e8d
+      internalID: -103189966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_62
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 84
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2867270159df944f99936d3413c1e87
+      internalID: -1800432068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_63
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 84
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eda93a62f5281646887b927d92aa4c1
+      internalID: 1938582293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_64
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 9
+        width: 133
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d396ab922c340d438d4c1dde91a58b2
+      internalID: -1919701088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_65
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 73
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586e3b3837b18d246be9f9782c1d3a17
+      internalID: 1492396750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_66
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 74
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d30dad757423934d9dd3b8d303b1cee
+      internalID: -2077205422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_67
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 74
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802a911fd1b333746bd671d041049845
+      internalID: 303987599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_68
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 47
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5d8bd9a34dfad448fc8cf7b03aa74a
+      internalID: -281356527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_69
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 50
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dd64c2fe805f541976ce0f5f6d8772
+      internalID: 2005561497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_70
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 50
+        width: 71
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1cfaa98cd81ba47ac6adbba20c24bd
+      internalID: 1288283082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_71
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440fad02698e73e4baa852d25fe4e3ec
+      internalID: 1472065512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_72
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 28
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d38a24cfa667db429938faeaeb25e2c
+      internalID: -590849187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_73
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 28
+        width: 71
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274483320e6c525448c2505fa3fcb521
+      internalID: -821238956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_74
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 146
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea865aec2202bf7458131e17fcc2cf63
+      internalID: 1858748962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_75
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 4
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a88069f6607df447a7670d38c0c855c
+      internalID: -1632616501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_76
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 4
+        width: 95
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3f5034f2453d14286e3e593b720387
+      internalID: 624109433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 9
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdecc9d2bec76244b982e0d2d8a5a7b
+      internalID: -301582705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Defencer 1E[anim]_78
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 9
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41cf558b6c11f445b61b0aef9956a3c
+      internalID: 1147453948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Defencer 1E[anim]_0: -237790719
+      Defencer 1E[anim]_1: 1504504986
+      Defencer 1E[anim]_10: 1616247553
+      Defencer 1E[anim]_11: -381079071
+      Defencer 1E[anim]_12: 402621149
+      Defencer 1E[anim]_13: 1354938791
+      Defencer 1E[anim]_14: -616531149
+      Defencer 1E[anim]_15: -1557674170
+      Defencer 1E[anim]_16: -1287300925
+      Defencer 1E[anim]_17: 19079703
+      Defencer 1E[anim]_18: -1864325977
+      Defencer 1E[anim]_19: 61902551
+      Defencer 1E[anim]_2: -1159651475
+      Defencer 1E[anim]_20: -1676355429
+      Defencer 1E[anim]_21: 33691761
+      Defencer 1E[anim]_22: 876918408
+      Defencer 1E[anim]_23: 572673157
+      Defencer 1E[anim]_24: 1334711101
+      Defencer 1E[anim]_25: -88859954
+      Defencer 1E[anim]_26: 1946963962
+      Defencer 1E[anim]_27: 1684087388
+      Defencer 1E[anim]_28: -108574914
+      Defencer 1E[anim]_29: 1138082669
+      Defencer 1E[anim]_3: -421147587
+      Defencer 1E[anim]_30: 672007170
+      Defencer 1E[anim]_31: 842974839
+      Defencer 1E[anim]_32: -845029419
+      Defencer 1E[anim]_33: -1866983955
+      Defencer 1E[anim]_34: -911820515
+      Defencer 1E[anim]_35: 467850416
+      Defencer 1E[anim]_36: 425457083
+      Defencer 1E[anim]_37: 1446127764
+      Defencer 1E[anim]_38: -1200460242
+      Defencer 1E[anim]_39: -749181174
+      Defencer 1E[anim]_4: -1236862584
+      Defencer 1E[anim]_40: 1817268791
+      Defencer 1E[anim]_41: -1143143365
+      Defencer 1E[anim]_42: -1340521891
+      Defencer 1E[anim]_43: -1802698281
+      Defencer 1E[anim]_44: -1403215224
+      Defencer 1E[anim]_45: -1790695758
+      Defencer 1E[anim]_46: -319614540
+      Defencer 1E[anim]_47: -1200729400
+      Defencer 1E[anim]_48: -91728684
+      Defencer 1E[anim]_49: 1106264717
+      Defencer 1E[anim]_5: -1956209909
+      Defencer 1E[anim]_50: 1169123422
+      Defencer 1E[anim]_51: -156926363
+      Defencer 1E[anim]_52: 178513500
+      Defencer 1E[anim]_53: 1581396194
+      Defencer 1E[anim]_54: 1233656655
+      Defencer 1E[anim]_55: 965101436
+      Defencer 1E[anim]_56: 1913850028
+      Defencer 1E[anim]_57: -2129852419
+      Defencer 1E[anim]_58: 1715472347
+      Defencer 1E[anim]_59: -779342164
+      Defencer 1E[anim]_6: 168300909
+      Defencer 1E[anim]_60: -1358754518
+      Defencer 1E[anim]_61: -103189966
+      Defencer 1E[anim]_62: -1800432068
+      Defencer 1E[anim]_63: 1938582293
+      Defencer 1E[anim]_64: -1919701088
+      Defencer 1E[anim]_65: 1492396750
+      Defencer 1E[anim]_66: -2077205422
+      Defencer 1E[anim]_67: 303987599
+      Defencer 1E[anim]_68: -281356527
+      Defencer 1E[anim]_69: 2005561497
+      Defencer 1E[anim]_7: 39823975
+      Defencer 1E[anim]_70: 1288283082
+      Defencer 1E[anim]_71: 1472065512
+      Defencer 1E[anim]_72: -590849187
+      Defencer 1E[anim]_73: -821238956
+      Defencer 1E[anim]_74: 1858748962
+      Defencer 1E[anim]_75: -1632616501
+      Defencer 1E[anim]_76: 624109433
+      Defencer 1E[anim]_77: -301582705
+      Defencer 1E[anim]_78: 1147453948
+      Defencer 1E[anim]_8: 2076060558
+      Defencer 1E[anim]_9: 995567299
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

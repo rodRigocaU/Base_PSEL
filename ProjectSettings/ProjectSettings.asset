@@ -689,7 +689,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: LEVELPLAY_DEPENDENCIES_INSTALLED
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -797,11 +798,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 75c77987-f39f-486a-ad0c-61054fae0fed
+  cloudProjectId: b1920607-ef3a-4cee-b552-399b239eda96
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Base_PSEL
-  organizationId: luis_forti
+  organizationId: rudigerifher
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

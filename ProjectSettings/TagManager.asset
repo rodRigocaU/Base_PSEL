@@ -6,6 +6,15 @@ TagManager:
   tags:
   - Plataforma
   - Controlador
+  - Ground
+  - CheckPoint
+  - HookPoint
+  - Enemy
+  - key
+  - limit
+  - spikes
+  - end
+  - doors
   layers:
   - Default
   - TransparentFX
